@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+}
+
+.board {
+  border-radius: 8px;
+  border: 1px solid var(--text);
+  width: fit-content;
+  min-width: max-content;
+}
+
+.row {
+  height: 50px;
+}
+
+.row:first-of-type .square:first-of-type {
+  border-width: 0 1px 0px 0;
+}
+.row:first-of-type .square:last-of-type {
+  border-width: 0 0 0px 1px;
+}
+.row:last-of-type .square:first-of-type {
+  border-width: 1px 0px 0 0;
+}
+.row:last-of-type .square:last-of-type {
+  border-width: 1px 0 0 1px;
+}

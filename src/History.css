@@ -1,0 +1,19 @@
+.history {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100px;
+}
+
+.history-move {
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+.history-move:hover {
+  background-color: var(--btn-hover);
+}
+.history-move:active {
+  scale: 0.95;
+}
